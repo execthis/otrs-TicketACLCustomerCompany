@@ -1,0 +1,36 @@
+{
+    "name": "TicketACLCustomerCompany",
+    "version": "4.0.1",
+    "framework": [
+        "4.0.x"
+    ],
+    "vendor": {
+        "name":  "Perl-Services.de",
+        "url": "http://www.perl-services.de"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+    "description" : {
+        "en": "Add Property 'CustomerCompany' for ACLs",
+        "de": "Fügt die Eigenschaft 'CustomerCompany' für ACLs hinzu"
+    },
+    "code": [
+        { "type": "Install", "version": 0 },
+        { "type": "Upgrade", "version": 0 }
+    ],
+    "intro": [
+        {
+            "type": "Install",
+            "version": 0,
+            "lang": "en",
+            "title": "Thank you!",
+            "text": "Thank you for choosing the TicketACLCustomerCompany module."
+        },
+        {
+            "type": "Install",
+            "version": 0,
+            "lang": "de",
+            "title": "Vielen Dank!",
+            "text": "Vielen Dank für die Wahl des TicketACLCustomerCompany Moduls."
+        }
+    ]
+}
